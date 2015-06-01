@@ -18,6 +18,14 @@
             <h1>Game Calculator</h1>
             <h4>All fields are required. No ties or draws are allowed.</h4>
             <div>
+
+                 <label for="txtteam">Team:</label>
+                <asp:TextBox ID="txtteam" runat="server" required AutoCompleteType="Disabled" />
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator17" runat="server"
+                    ErrorMessage="Required" ControlToValidate="txtteam" Display="Dynamic"
+                    CssClass="label label-danger"></asp:RequiredFieldValidator>
+            </div>
+            <div>
                 <h2>Game 1</h2>
                 <asp:RadioButtonList ID="rbtgame1" runat="server" 
                 RepeatDirection="Vertical" RepeatLayout="Table">
@@ -29,6 +37,7 @@
                     CssClass="label label-danger"></asp:RequiredFieldValidator>
 
             </div>
+           
                         <div>
                 <label for="txtscore">Score:</label>
                 <asp:TextBox ID="txtscore" runat="server" required AutoCompleteType="Disabled" />
@@ -201,6 +210,10 @@
 
             <asp:Panel ID="pnlResults" runat="server" Visible="false">
                 <h4>Result</h4>
+                <div>
+                    <label for="lblteam">Team:</label>
+                    <asp:Label ID="lblteam" runat="server" />
+                </div>
                 <div>
                     <label for="lblwin">Wins:</label>
                     <asp:Label ID="lblwin" runat="server" />

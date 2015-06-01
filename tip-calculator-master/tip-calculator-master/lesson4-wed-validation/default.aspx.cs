@@ -89,6 +89,7 @@ namespace lesson4_wed_validation
             lblavgattend.Text = avgattend.ToString("#.##");
             //show the results panel
             pnlResults.Visible = true;
+            lblteam.Text = txtteam.Text;
 
         }
     }
