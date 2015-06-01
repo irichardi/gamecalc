@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson4-wed-validation", "lesson4-wed-validation\lesson4-wed-validation.csproj", "{BC1E16FA-E488-4C9A-ABF1-2383B2D3FBDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC1E16FA-E488-4C9A-ABF1-2383B2D3FBDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1E16FA-E488-4C9A-ABF1-2383B2D3FBDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1E16FA-E488-4C9A-ABF1-2383B2D3FBDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1E16FA-E488-4C9A-ABF1-2383B2D3FBDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
